@@ -8,6 +8,7 @@ script:
   - npm run build
 after_script:
   - cp -r dist docs
+  - ls -a
   - git config user.name "xiaofuyesnew"
   - git config user.email "xiaofuyesnew@qq.com"
   - git add -A
